@@ -34,6 +34,7 @@ The github api is public and it has a limit of 60 request for a unauthenticated 
 ## Version: [Version Number]
 
 ## Table of Contents
+
 1. [Introduction](#introduction)
 2. [Objectives](#objectives)
 3. [Scope](#scope)
@@ -48,22 +49,28 @@ The github api is public and it has a limit of 60 request for a unauthenticated 
 ---
 
 ## 1. Introduction
+
 Web page to allow user search for a GitHub user and retrieve user information.
 
 ## 2. Objectives
+
 Ensure the GitHub User Search Web Page functions correctly by accurately retrieving user data from the GitHub database based on user input.
 
 ## 3. Scope
+
 This test plan covers the functionality and usability of the GitHub User Search Web Page.
 
 ## 4. Roles and Responsibilities
+
 Testers: Responsible for executing the test cases and reporting any issues.
 Developers: Responsible for fixing reported issues and enhancing the functionality as required.
 
 ## 5. Test Environment
+
 Describe the test environment, including hardware, software, and network configurations.
 
 ## 6. Test Strategy
+
 Explain the overall testing approach, including techniques, methodologies, and tools to be used.
 
 Unit Tests:
@@ -103,8 +110,8 @@ Cross-Browser and Cross-Device Tests:
 Test the web page's compatibility across different web browsers (e.g., Chrome, Firefox, Safari, Edge).
 Validate that the page renders correctly and functions as expected on various devices (e.g., desktop, tablet, mobile).
 
-
 ## 7. Test Cases
+
 A. User Interface
 UI Layout Test: Verify that the UI elements (input field, search button) are displayed correctly.
 Responsiveness Test: Ensure the UI adapts to different screen sizes (desktop, tablet, mobile).
@@ -123,23 +130,23 @@ D. Security
 Input Sanitization Test: Verify that the input is properly sanitized to prevent injection attacks.
 Data Privacy Test: Ensure that sensitive user data is not exposed in the search results.
 
-
 ## 8. Test Execution
+
 Detail the process for executing tests, including any prerequisites or setup instructions.
 Perform manual testing based on the test cases outlined above.
 Use automated testing tools where applicable to improve efficiency.
 Record any issues encountered during testing along with steps to reproduce them.
 
-
 ## 9. Test Reporting
+
 Describe how test results will be documented, including formats and tools used for reporting.
 
 Document the test results including pass/fail status for each test case.
 Provide detailed information about any defects found, including screenshots or logs if necessary.
 Communicate the test results to the development team for further action.
 
-
 ## 10. Test Closure
+
 Outline the process for closing out the testing effort, including reviewing test results, addressing defects, and obtaining sign-off.
 Review the test results with the development team and address any unresolved issues.
 Obtain sign-off from relevant stakeholders once all issues are resolved and the system is deemed ready for deployment.
@@ -147,4 +154,5 @@ Obtain sign-off from relevant stakeholders once all issues are resolved and the 
 ---
 
 ## Appendix: References
+
 [List any references or documents relevant to the testing effort.]
